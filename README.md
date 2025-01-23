@@ -1,9 +1,5 @@
 # torch_PINN
 
 This is the tutorial of PINN. 
-$$
-\begin{aligned}
-\frac{1}{2}&=1\\
-\frac{1}{2}&=2
-\end{aligned}
-$$
+$$U_t+\left(U\cdot\nabla)U=-\nabla p+\triangle U+F$$
+
