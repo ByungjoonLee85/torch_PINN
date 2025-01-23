@@ -4,6 +4,9 @@ This is the tutorials of PINN.
 
 **1. PINN_NS_single_vortex.py**
 
-$$U_t+\left(U\cdot\nabla\right)U=-\nabla p+\triangle U+F$$
-
-$$\nabla\cdot U=0$$
+$$
+\mathrm{CE}(p, y) = \begin{cases}
+    -\log(p) & \text{if } y = 1 \\ % & is your "\tab"-like command (it's a tab alignment character)
+    -\log(1-p) & \text{otherwise.}
+\end{cases}
+$$
